@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/drajnish/social-media-dashboard.git)
-- Live Site URL: [Add live site URL here](https://drajnish.github.io/social-media-dashboard/)
+- Solution URL: [frontend mentor](https://www.frontendmentor.io/solutions/mobile-first-grid-flexbox-and-a-little-javascript-CjI6qepFB)
+- Live Site URL: [github page](https://drajnish.github.io/social-media-dashboard/)
 
 ## My process
 

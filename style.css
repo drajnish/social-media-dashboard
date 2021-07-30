@@ -87,17 +87,10 @@ header {
   font-weight: 400;
 }
 
-.toggle-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 1.2em 0;
-}
-
 .toggle-container span {
   color: var(--text-color);
   font-weight: 700;
+  padding-right: 1.5rem;
 }
 
 .checkbox {
@@ -283,10 +276,34 @@ figcaption {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 767px) {
+  .toggle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.2em 0;
+  }
+}
+
+@media (min-width: 768px) {
   header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 5em;
     padding-right: 5em;
+    padding-bottom: 2em;
+  }
+
+  .title {
+    border: none;
+  }
+
+  .toggle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .top-container,
